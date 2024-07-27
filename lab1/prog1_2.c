@@ -31,7 +31,6 @@ void print_using_value(struct student_info s)
     printf("Printing using value\n");
     printf("Roll: %d\n", s.roll);
     printf("Name: %s\n", s.name);
-    printf("Age: %d\n", s.age);
     printf("CGPA: %f\n", s.cgpa);
     printf("DOB: %d-%d-%d\n", s.age.day, s.age.month, s.age.year);
 }
@@ -41,7 +40,6 @@ void print_using_address(struct student_info *s)
     printf("Printing using address\n");
     printf("Roll: %d\n", s->roll);
     printf("Name: %s\n", s->name);
-    printf("Age: %d\n", s->age);
     printf("CGPA: %f\n", s->cgpa);
     printf("DOB: %d-%d-%d\n", s->age.day, s->age.month, s->age.year);
 }
