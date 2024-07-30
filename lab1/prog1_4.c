@@ -17,7 +17,7 @@ struct pkt
     char ch3;
 };
 
-int main(int argc, char *argv[])
+int main()
 {
     struct pkt p1;
     int x;

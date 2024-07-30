@@ -4,7 +4,7 @@ Write a C program to extract each byte from a given number and store them in sep
 */
 #include <stdio.h>
 
-int main(int argc, char *argv[])
+int main()
 {
     int number;
     printf("Enter a number: ");
